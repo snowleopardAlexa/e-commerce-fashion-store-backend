@@ -12,8 +12,11 @@ mongoose.connect(process.env.MONGO_URL).then(() => console.log("DBConnection Suc
    console.log(err);
 });
 
+// enable json to be tested in postman
+app.use(express.json());
+
 // import endpoint from routes/user.js
-app.use("/api/user", userRoute);
+app.use("/api/users", userRoute);
 
 app.listen(process.env.PORT || 5000, () => {
     console.log("Backend server is running")
