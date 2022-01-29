@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/snowleopardAlexa/e-commerce-fashion-store-backend#readme",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "mongoose": "^6.1.8",
