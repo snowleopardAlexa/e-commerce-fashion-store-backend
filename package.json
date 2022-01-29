@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/snowleopardAlexa/e-commerce-fashion-store-backend/issues"
   },
-  "homepage": "https://github.com/snowleopardAlexa/e-commerce-fashion-store-backend#readme"
+  "homepage": "https://github.com/snowleopardAlexa/e-commerce-fashion-store-backend#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
 }
