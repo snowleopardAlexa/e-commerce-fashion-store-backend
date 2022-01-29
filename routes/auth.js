@@ -8,6 +8,11 @@ router.post("/register", (req, res) => {
         email: req.body.email,
         password: req.body.password,
     });
+
+   // save info to DB
+   const savedUser = newUser.save();
+   console.log(savedUser);
+
 });
 
 module.exports = router;
